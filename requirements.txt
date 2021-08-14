@@ -1,4 +1,4 @@
-certifi==2019.11.28
+certifi==2021.5.30
 chardet==3.0.4
 gitdb2==3.0.2
 GitPython==3.0.8
@@ -9,7 +9,7 @@ python-utils==2.3.0
 PyYAML==5.4
 requests==2.26.0
 six==1.14.0
-smmap2==2.0.5
+smmap2==3.0.1
 urllib3==1.26.6
 python-dotenv==0.15.0
 wheel==0.36.2
