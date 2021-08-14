@@ -1,0 +1,7 @@
+.git
+.github
+.gitignore
+.gitmodules
+minitriga/Netbox-Device-Type-Library-Import/Dockerfile
+minitriga/Netbox-Device-Type-Library-Import/.env*
+
