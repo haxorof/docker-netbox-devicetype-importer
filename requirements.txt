@@ -1,5 +1,5 @@
 certifi==2021.5.30
-chardet==3.0.4
+chardet==4.0.0
 gitdb2==3.0.2
 GitPython==3.0.8
 idna==2.8
