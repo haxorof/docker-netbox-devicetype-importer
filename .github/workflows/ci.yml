@@ -2,10 +2,10 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
   schedule:
     - cron:  '0 0 * * 0'
 
@@ -34,7 +34,7 @@ jobs:
 
       - name: Login to DockerHub
         uses: docker/login-action@v1.10.0
-        if: ${{ endsWith(github.ref, '/master') }}
+        if: ${{ endsWith(github.ref, '/main') }}
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
@@ -49,12 +49,12 @@ jobs:
             org.opencontainers.image.revision=${{ github.sha }}
             org.opencontainers.image.licenses=${{ github.event.repository.license.name }}
           tags: haxorof/netbox-devicetype-importer:${{ steps.prep.outputs.tag }}
-          push: ${{ endsWith(github.ref, '/master') }}
+          push: ${{ endsWith(github.ref, '/main') }}
 
   update_docker_hub_description:
     needs: build_push
     runs-on: ubuntu-latest
-    if: ${{ endsWith(github.ref, '/master') }}
+    if: ${{ endsWith(github.ref, '/main') }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
