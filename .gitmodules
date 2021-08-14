@@ -1,0 +1,3 @@
+[submodule "minitriga/Netbox-Device-Type-Library-Import"]
+	path = minitriga/Netbox-Device-Type-Library-Import
+	url = https://github.com/minitriga/Netbox-Device-Type-Library-Import.git
