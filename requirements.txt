@@ -5,4 +5,4 @@ pynetbox==6.2.0
 PyYAML==6.0
 requests==2.26.0
 six==1.16.0
-python-dotenv==0.19.1
+python-dotenv==0.19.2
