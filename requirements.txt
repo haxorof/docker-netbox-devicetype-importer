@@ -3,6 +3,6 @@ GitPython==3.1.27
 progressbar2==4.0.0
 pynetbox==6.6.2
 PyYAML==6.0
-requests==2.28.0
+requests==2.28.1
 six==1.16.0
 python-dotenv==0.20.0
