@@ -1,4 +1,4 @@
-FROM python:3.11.2-alpine
+FROM python:3.11.3-alpine
 
 LABEL org.opencontainers.image.title="haxorof/netbox-devicetype-importer" \
     org.opencontainers.image.description="NetBox Device Type Importer"
