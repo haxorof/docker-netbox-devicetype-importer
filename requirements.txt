@@ -1,6 +1,6 @@
 certifi==2023.11.17
 GitPython==3.1.40
-progressbar2==4.2.0
+progressbar2==4.3.0
 pynetbox==7.2.0
 PyYAML==6.0.1
 requests==2.31.0
