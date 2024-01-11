@@ -1,5 +1,5 @@
 certifi==2023.11.17
-GitPython==3.1.40
+GitPython==3.1.41
 progressbar2==4.3.2
 pynetbox==7.3.3
 PyYAML==6.0.1
