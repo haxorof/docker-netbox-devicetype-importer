@@ -1,4 +1,4 @@
-certifi==2023.11.17
+certifi==2024.2.2
 GitPython==3.1.41
 progressbar2==4.3.2
 pynetbox==7.3.3
