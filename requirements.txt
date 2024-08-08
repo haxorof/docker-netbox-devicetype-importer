@@ -1,7 +1,7 @@
 certifi==2024.7.4
 GitPython==3.1.43
 progressbar2==4.4.2
-pynetbox==7.3.4
+pynetbox==7.4.0
 PyYAML==6.0.2
 requests==2.32.3
 six==1.16.0
