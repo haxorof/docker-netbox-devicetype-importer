@@ -4,5 +4,5 @@ progressbar2==4.5.0
 pynetbox==7.4.1
 PyYAML==6.0.2
 requests==2.32.3
-six==1.16.0
+six==1.17.0
 python-dotenv==1.0.1
